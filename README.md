@@ -9,6 +9,42 @@
 <li>More than two-thirds of cancer deaths occur in Low and Middle Income Countries, despite these countries accounting for about one-third of the global population. This meant, that even though these countries suffer from a high number of cancer patients, their economic backgrounds hinder them from being detected early on.</li>
 </ol>
 <br>
+<html>
+<style>
+body {  background-color: black;}
+</style>
+<body>
+<canvas id='myCanvas' width='800' height='600'></canvas>
+<script>
+ 
+function animate() {
+  let rotation = (2 * Math.sin(counter / (3.14 * speed)));
+  context.setTransform(scale, 0, 0, scale, canvas.width / 2, canvas.height / 2);
+  context.clearRect(-canvas.width / 2, -canvas.height, canvas.width, canvas.height *2);
+  for (let i = 0; i < 360; i++) {
+    context.strokeStyle = colors[i % 6];
+    context.lineWidth = i / 100 + 1;
+    context.beginPath();
+    context.moveTo(0, 0);
+    context.lineTo(0, i);
+    context.stroke();
+    context.translate(0, i);
+    context.rotate((-60 + rotation) * 2 * Math.PI / 360);
+  }
+  window.requestAnimationFrame(animate);
+  counter++;
+}
+ 
+let colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow'];
+let canvas = document.getElementById('myCanvas');
+let context = canvas.getContext('2d');
+let counter = 0;
+let scale = .3;
+let speed = 20;
+animate();
+</script>
+</body>
+</canvas>
 
 This model classify differnt types of cancer ,Majorly we focused on classifying 
 <ol>
