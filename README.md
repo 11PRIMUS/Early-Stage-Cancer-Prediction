@@ -1,17 +1,17 @@
 # Early-Stage-Cancer-Prediction
 
-<li>
-<ol>Cancer is responsible for an estimated 10 million deaths worldwide each year, making it the second leading cause of death.</ol>
-<ol>In 2020, there were an estimated 19.3 million new cases of cancer worldwide, with the number expected to rise to 28.4 million by 2040.</ol>
-<ol>More specifically regarding Brain Tumor there were about 265,000 deaths worldwide in 2019, representing approximately 1.6% of all deaths from all causes.</ol>
-<ol>Additionally with regards to Leukemia it was estimated (in 2020) that there were approximately 417,000 deaths due to this worldwide, representing approximately 3% of all cancer deaths.</ol>
-<ol>Breast cancer is the most common cancer in women worldwide, accounting for 25% of all cancers in women.</ol>
-<ol>More than two-thirds of cancer deaths occur in Low and Middle Income Countries, despite these countries accounting for about one-third of the global population. This meant, that even though these countries suffer from a high number of cancer patients, their economic backgrounds hinder them from being detected early on.</ol></li>
+<ol>
+<li>Cancer is responsible for an estimated 10 million deaths worldwide each year, making it the second leading cause of death.</li>
+<li>In 2020, there were an estimated 19.3 million new cases of cancer worldwide, with the number expected to rise to 28.4 million by 2040.</li>
+<li>More specifically regarding Brain Tumor there were about 265,000 deaths worldwide in 2019, representing approximately 1.6% of all deaths from all causes.</li>
+<li>Additionally with regards to Leukemia it was estimated (in 2020) that there were approximately 417,000 deaths due to this worldwide, representing approximately 3% of all cancer deaths.</li>
+<li>Breast cancer is the most common cancer in women worldwide, accounting for 25% of all cancers in women.</ol>
+<li>More than two-thirds of cancer deaths occur in Low and Middle Income Countries, despite these countries accounting for about one-third of the global population. This meant, that even though these countries suffer from a high number of cancer patients, their economic backgrounds hinder them from being detected early on.</li>
 </break>
 
 This model classify differnt types of cancer ,Majorly we focused on classifying 
-<li><ol>
-  Brain Tumor
+<ol>
+ <li> Brain Tumor</li>
 </ol>
 <ol>Breast Cnacer</ol>
 <ol>Skin Cancer</ol></li>
