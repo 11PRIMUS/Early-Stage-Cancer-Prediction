@@ -7,6 +7,7 @@
 <li>Additionally with regards to Leukemia it was estimated (in 2020) that there were approximately 417,000 deaths due to this worldwide, representing approximately 3% of all cancer deaths.</li>
 <li>Breast cancer is the most common cancer in women worldwide, accounting for 25% of all cancers in women.</ol>
 <li>More than two-thirds of cancer deaths occur in Low and Middle Income Countries, despite these countries accounting for about one-third of the global population. This meant, that even though these countries suffer from a high number of cancer patients, their economic backgrounds hinder them from being detected early on.</li>
+</ol>
 <br>
 
 This model classify differnt types of cancer ,Majorly we focused on classifying 
