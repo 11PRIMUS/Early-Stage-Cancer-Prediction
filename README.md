@@ -20,7 +20,8 @@ We started searching for methods/cures available for Brain Tumor and Leukemia, w
 So we built this model which not only detect cancer but one can predict cancer earlier from the symptomps and calssify the type of Cancer,
 Although the accuracy of model is 95.62 percentage but it will help to predict cancer earlier and can be widely used for immediate diagnosis and classification 
 <br>
-We provide the users with a web interface (integrated with deep learning models) wherein they can upload the MRI or CT scans and in a matter of few seconds, they get to know whether they have Cancer (Brain Tumor/ Breast Cancer/ Leukemia). With this we aim to make it sustainable for doctors to detect a patient's cancer as well as for low income individuals to atleast get the fundamental right to basic healthcare, i.e. knowing if they have cancer and thus getting the required diagnosis.
+<p>
+We provide the users with a web interface (integrated with deep learning models) wherein they can upload the MRI or CT scans and in a matter of few seconds, they get to know whether they have Cancer (Brain Tumor/ Breast Cancer/ Leukemia). With this we aim to make it sustainable for doctors to detect a patient's cancer as well as for low income individuals to atleast get the fundamental right to basic healthcare, i.e. knowing if they have cancer and thus getting the required diagnosis.</p>
 
 <h1>
   Solution
