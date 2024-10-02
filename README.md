@@ -172,6 +172,7 @@ else:
 </p>
 <ins>**🧠 Model Architecture**</ins><br />
 
+
 We utilized the MobileNet architecture as our base model. Here’s a brief overview of the architecture used:
 ```python
 from keras.applications.mobilenet import MobileNet
@@ -199,9 +200,8 @@ To run this project, please ensure you have the following prerequisites installe
  <br>
 </p>
 <ins>**🛠️ Code Snippet**</ins><br />
-<p>
- <br>
-</p>
+
+
 ```python
 from keras.callbacks import ModelCheckpoint
 
