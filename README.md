@@ -85,3 +85,14 @@ model.summary()
 
 ![Image](https://github.com/user-attachments/assets/a8e59efa-4117-4506-a558-69bd64f12b25)
 
+<h1>🩺 Breast Cancer Detection using Machine Learning</h1>
+
+<ins>**🛠️ Technologies Used**</ins><br />
+
+<li>Python: The primary programming language used for implementation.</li>
+<li>Libraries:</li>
+<li>NumPy: For numerical computations.</li>
+<li>Pandas: For data manipulation and analysis.</li>
+<li>Matplotlib: For data visualization.</li>
+<li>Scikit-learn: For dataset handling, preprocessing, and model evaluation.</li>
+<li>TensorFlow/Keras: For building and training the neural network.</li>
