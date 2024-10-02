@@ -195,7 +195,9 @@ To run this project, please ensure you have the following prerequisites installe
 <li>OpenCV</li>
 <li>Matplotlib</li>
 <li>scikit-learn</li>
-
+<p>
+ <br>
+</p>
 <ins>**🛠️ Code Snippet**</ins><br />
 
 ```python
@@ -212,6 +214,8 @@ history = model.fit(
     callbacks=[checkpoint]
 )
 ```
-
+<p>
+ <br>
+</p>
 <ins>**📊 Results**</ins><br />
 
