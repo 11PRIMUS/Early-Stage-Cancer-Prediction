@@ -96,3 +96,52 @@ model.summary()
 <li>Matplotlib: For data visualization.</li>
 <li>Scikit-learn: For dataset handling, preprocessing, and model evaluation.</li>
 <li>TensorFlow/Keras: For building and training the neural network.</li>
+
+<ins>**🧠 Model Architecture**</ins><br />
+
+The neural network model is built using Keras and consists of the following layers:
+
+<li>Input Layer: 30 input features.</li>
+<li>Hidden Layer: 20 neurons with ReLU activation.</li>
+<li>Output Layer: 2 neurons with sigmoid activation for binary classification.</li>
+
+<ins>**🛠️ Installation**</ins><br />
+
+To run this project, please ensure you have the following prerequisites installed:
+
+<li>Python</li> 
+<li>TensorFlow/Keras</li>
+<li>NumPy</li>
+<li>Pandas</li>
+<li>Matplotlib</li>
+<li>scikit-learn</li>
+<p>
+ <br>
+</p>
+
+<ins>**🛠️ Code Snippet**</ins><br />
+
+```python
+input_data = (11.76,21.6,74.72,427.9,0.08637,0.04966,0.01657,0.01115,0.1495,0.05888,0.4062,1.21,2.635,28.47,0.005857,0.009758,0.01168,0.007445,0.02406,0.001769,12.98,25.72,82.98,516.5,0.1085,0.08615,0.05523,0.03715,0.2433,0.06563)
+
+# change the input_data to a numpy array
+input_data_as_numpy_array = np.asarray(input_data)
+
+# reshape the numpy array as we are predicting for one data point
+input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
+
+# standardizing the input data
+input_data_std = scaler.transform(input_data_reshaped)
+
+prediction = model.predict(input_data_std)
+print(prediction)
+
+prediction_label = [np.argmax(prediction)]
+print(prediction_label)
+
+if(prediction_label[0] == 0):
+  print('The tumor is Malignant')
+
+else:
+  print('The tumor is Benign')
+```
