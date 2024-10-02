@@ -100,7 +100,9 @@ model.summary()
  <br>
 </p>
 <ins>**🧠 Model Architecture**</ins><br />
-
+<p>
+ <br>
+</p>
 The neural network model is built using Keras and consists of the following layers:
 
 <li>Input Layer: 30 input features.</li>
@@ -110,7 +112,9 @@ The neural network model is built using Keras and consists of the following laye
  <br>
 </p>
 <ins>**🛠️ Installation**</ins><br />
-
+<p>
+ <br>
+</p>
 To run this project, please ensure you have the following prerequisites installed:
 
 <li>Python</li> 
