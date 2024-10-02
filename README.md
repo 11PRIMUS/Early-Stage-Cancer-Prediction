@@ -187,7 +187,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 ```
 
 <ins>**🛠️ Installation**</ins><br />
-
+<li></li>
 To run this project, please ensure you have the following prerequisites installed:
 
 <li>Python</li> 
@@ -199,8 +199,8 @@ To run this project, please ensure you have the following prerequisites installe
 <p>
  <br>
 </p>
-<ins>**🛠️ Code Snippet**</ins><br />
 
+<ins>**🛠️ Code Snippet**</ins><br />
 
 ```python
 from keras.callbacks import ModelCheckpoint
