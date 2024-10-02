@@ -167,7 +167,9 @@ else:
 <li>Scikit-learn: For dataset handling, preprocessing, and model evaluation.</li>
 <li>TensorFlow/Keras: For building and training the neural network.</li>
 <li>OpenCV - For image processing</li>
-
+<p>
+ <br>
+</p>
 <ins>**🏗️Model Architecture**</ins><br />
 
 
