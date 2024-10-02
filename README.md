@@ -171,9 +171,7 @@ else:
  <br>
 </p>
 <ins>**🧠 Model Architecture**</ins><br />
-
-
-
+<br>
 We utilized the MobileNet architecture as our base model. Here’s a brief overview of the architecture used:
 ```python
 from keras.applications.mobilenet import MobileNet
