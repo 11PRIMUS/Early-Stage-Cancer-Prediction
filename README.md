@@ -49,10 +49,10 @@ Output Layer: A Dense layer with a sigmoid activation function for binary classi
 
 To run this project, please ensure you have the following prerequisites installed:
 
-Python 
-TensorFlow/Keras
-NumPy
-Matplotlib
+<li>Python</li> 
+<li>TensorFlow/Keras</li>
+<li>NumPy</li>
+<li>Matplotlib</li>
 
 <ins>**🛠️ Code Snippet**</ins><br />
 
