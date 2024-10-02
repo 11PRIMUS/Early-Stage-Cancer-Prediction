@@ -17,13 +17,12 @@
 This model classify differnt types of cancer ,Majorly we focused on classifying:-
 <ol>
  
- <ins>**💡Brain Tumor**</ins><br />
- <ins>**💡Breast Cancer**</ins><br />
- <ins>**💡Skin Cancer**</ins><br />
+ <ins>**Brain Tumor**</ins><br />
+ <ins>**Breast Cancer**</ins><br />
+ <ins>**Skin Cancer**</ins><br />
 </ol>
 We started searching for methods/cures available for Brain Tumor and Leukemia, what we discovered was that even though we as humans have made great strides and advancements in treating cases of Brain Tumor and Leukemia most treatments rely on the condition that the cancer is detected at an early stage. We took this as the problem we were willing and eager to solve. We recognized that the rate at which cancer cases are increasing is putting stress on the hospital as well as their staff.
-So we built this model which not only detect cancer but one can predict cancer earlier from the symptomps and calssify the type of Cancer,
-Although the accuracy of model is 95.62 percentage but it will help to predict cancer earlier and can be widely used for immediate diagnosis and classification 
+So we built this model which not only detect cancer but one can predict cancer earlier from the symptomps and calssify the type of Cancer.
 <p>
  <br>
 </p>
