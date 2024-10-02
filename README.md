@@ -96,7 +96,9 @@ model.summary()
 <li>Matplotlib: For data visualization.</li>
 <li>Scikit-learn: For dataset handling, preprocessing, and model evaluation.</li>
 <li>TensorFlow/Keras: For building and training the neural network.</li>
-
+<p>
+ <br>
+</p>
 <ins>**🧠 Model Architecture**</ins><br />
 <p>
  <br>
@@ -106,7 +108,9 @@ The neural network model is built using Keras and consists of the following laye
 <li>Input Layer: 30 input features.</li>
 <li>Hidden Layer: 20 neurons with ReLU activation.</li>
 <li>Output Layer: 2 neurons with sigmoid activation for binary classification.</li>
-
+<p>
+ <br>
+</p>
 <ins>**🛠️ Installation**</ins><br />
 <p>
  <br>
@@ -149,3 +153,5 @@ if(prediction_label[0] == 0):
 else:
   print('The tumor is Benign')
 ```
+<ins>**📊 Results**</ins><br />
+
