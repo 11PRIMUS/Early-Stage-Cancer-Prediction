@@ -53,8 +53,7 @@ To run this project, please ensure you have the following prerequisites installe
 <li>TensorFlow/Keras</li>
 <li>NumPy</li>
 <li>Matplotlib</li>
-
-
+<ol>
 <ins>**🛠️ Code Snippet**</ins><br />
 
 ```python
