@@ -199,7 +199,9 @@ To run this project, please ensure you have the following prerequisites installe
  <br>
 </p>
 <ins>**🛠️ Code Snippet**</ins><br />
-
+<p>
+ <br>
+</p>
 ```python
 from keras.callbacks import ModelCheckpoint
 
