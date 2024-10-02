@@ -29,3 +29,6 @@ We provide the users with a web interface (integrated with deep learning models)
 <h1>
   Solution
 </h1>
+
+<ins>**Brain Tumor**</ins><br />
+
