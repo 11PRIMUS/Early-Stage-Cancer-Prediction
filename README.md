@@ -14,11 +14,12 @@
 <br>
 
 
-This model classify differnt types of cancer ,Majorly we focused on classifying 
+This model classify differnt types of cancer ,Majorly we focused on classifying:-
 <ol>
- <li> Brain Tumor</li>
-<li>Breast Cnacer</li>
-<li>Skin Cancer</li>
+ 
+ <ins>**💡Brain Tumor**</ins><br />
+ <ins>**💡Breast Cancer**</ins><br />
+ <ins>**💡Skin Cancer**</ins><br />
 </ol>
 We started searching for methods/cures available for Brain Tumor and Leukemia, what we discovered was that even though we as humans have made great strides and advancements in treating cases of Brain Tumor and Leukemia most treatments rely on the condition that the cancer is detected at an early stage. We took this as the problem we were willing and eager to solve. We recognized that the rate at which cancer cases are increasing is putting stress on the hospital as well as their staff.
 So we built this model which not only detect cancer but one can predict cancer earlier from the symptomps and calssify the type of Cancer,
@@ -38,6 +39,7 @@ We provide the users with a web interface (integrated with deep learning models)
 Brain tumors are a significant health concern worldwide, often leading to severe complications if not diagnosed early. The complexity and variability of MRI images make manual analysis time-consuming and prone to human error. Our solution leverages the power of deep learning to enhance diagnostic accuracy and speed, potentially improving patient outcomes.
 
 <ins>**🏗️Model Architecture**</ins><br />
+
 We employ the MobileNet architecture due to its efficiency and effectiveness in image classification tasks. The model is fine-tuned for our specific use case with the following layers:
 
 Input Shape: (224, 224, 3) (standard size for MobileNet)
@@ -45,6 +47,7 @@ Flatten Layer: Converts 2D matrices into a 1D vector
 Output Layer: A Dense layer with a sigmoid activation function for binary classification.
 
 <ins>**🛠️ Installation**</ins><br />
+
 To run this project, please ensure you have the following prerequisites installed:
 
 Python 
