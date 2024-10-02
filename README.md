@@ -155,3 +155,61 @@ else:
 ```
 <ins>**📊 Results**</ins><br />
 
+
+<h1>Skin Cancer Detection Using Deep Learning</h1>
+
+<ins>**🛠️ Technologies Used**</ins><br />
+
+<li>Python: The primary programming language used for implementation.</li>
+<li>Libraries:</li>
+<li>NumPy: For numerical computations.</li>
+<li>Matplotlib: For data visualization.</li>
+<li>Scikit-learn: For dataset handling, preprocessing, and model evaluation.</li>
+<li>TensorFlow/Keras: For building and training the neural network.</li>
+<li>OpenCV - For image processing</li>
+
+<ins>**🧠 Model Architecture**</ins><br />
+
+We utilized the MobileNet architecture as our base model. Here’s a brief overview of the architecture used:
+```python
+from keras.applications.mobilenet import MobileNet
+from keras.layers import Flatten, Dense
+from keras.models import Model
+
+base_model = MobileNet(input_shape=(224, 224, 3), include_top=False)
+X = Flatten()(base_model.output)
+X = Dense(units=9, activation='softmax')(X)  # 9 classes for multi-class classification
+model = Model(inputs=base_model.input, outputs=X)
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+```
+
+<ins>**🛠️ Installation**</ins><br />
+
+To run this project, please ensure you have the following prerequisites installed:
+
+<li>Python</li> 
+<li>TensorFlow/Keras</li>
+<li>NumPy</li>
+<li>OpenCV</li>
+<li>Matplotlib</li>
+<li>scikit-learn</li>
+
+<ins>**🛠️ Code Snippet**</ins><br />
+
+```python
+from keras.callbacks import ModelCheckpoint
+
+# Define ModelCheckpoint to save the best model
+checkpoint = ModelCheckpoint('best.keras', monitor='val_accuracy', mode='max', save_best_only=True, verbose=1)
+
+# Train the model
+history = model.fit(
+    train_data,
+    steps_per_epoch=len(train_data),
+    epochs=30,
+    callbacks=[checkpoint]
+)
+```
+
+<ins>**📊 Results**</ins><br />
+
