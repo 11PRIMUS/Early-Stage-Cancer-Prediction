@@ -155,6 +155,14 @@ else:
 ```
 <ins>**📊 Results**</ins><br />
 
+<p align="center">
+  <img src="![WhatsApp Image 2024-10-04 at 09 41 59_6574649b](https://github.com/user-attachments/assets/53cccf2d-91b5-48b1-9437-bfe0b18d653e)
+" alt="Image 1" width="200"/>
+  <img src="![WhatsApp Image 2024-10-04 at 09 41 59_6120567b](https://github.com/user-attachments/assets/c97d3018-82a1-48e8-9d96-615a27ca45b2)
+" alt="Image 2" width="200"/>
+  <img src="![WhatsApp Image 2024-10-04 at 09 41 59_85eda641](https://github.com/user-attachments/assets/186930b7-04ce-4390-ae64-99a48606401f)
+" alt="Image 3" width="200"/>
+</p>
 
 <h1>Skin Cancer Detection Using Deep Learning</h1>
 
