@@ -225,3 +225,6 @@ history = model.fit(
 </p>
 <ins>**📊 Results**</ins><br />
 
+| ![Image1](![WhatsApp Image 2024-10-04 at 09 57 26_41b0662f](https://github.com/user-attachments/assets/e0391cba-9fd2-41da-af40-ad26ea242243)
+) | ![Image2](![WhatsApp Image 2024-10-04 at 09 57 26_280558db](https://github.com/user-attachments/assets/38960efd-ffc3-41d5-9f75-b63d0b7175f2)
+)
