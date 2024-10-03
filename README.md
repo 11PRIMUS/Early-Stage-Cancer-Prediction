@@ -157,9 +157,8 @@ else:
 
 | ![Image1](![WhatsApp Image 2024-10-04 at 09 41 59_6574649b](https://github.com/user-attachments/assets/82a8e4d5-cfee-459f-aa74-a34f75bbcd0d)
 ) | ![Image2](![WhatsApp Image 2024-10-04 at 09 41 59_6120567b](https://github.com/user-attachments/assets/b98c453f-5707-4f8b-b91d-b96a5878f0d5)
-) | ![Image3](![WhatsApp Image 2024-10-04 at 09 41 59_85eda641](https://github.com/user-attachments/assets/73a29195-84b4-40ed-bfa6-3d81b376cf36)
-) |
-|--------------------------|--------------------------|--------------------------|
+) 
+
 
 <h1>Skin Cancer Detection Using Deep Learning</h1>
 
