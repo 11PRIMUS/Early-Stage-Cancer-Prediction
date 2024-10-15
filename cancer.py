@@ -3,12 +3,10 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
-# Load pre-trained models
 skin_cancer_model = tf.keras.models.load_model(r'D:\python\skin_best.keras')
 breast_cancer_model = tf.keras.models.load_model(r'D:\python\breast_best.keras')
 brain_tumor_model = tf.keras.models.load_model(r'D:\python\best_model.keras')
 
-# Class names for skin cancer
 skin_cancer_classes = [
     'Keratosis',
     'Basal Cell Carcinoma',
@@ -21,20 +19,16 @@ skin_cancer_classes = [
     'Vascular Lesion'
 ]
 
-# Title and instructions
 st.title('Cancer Classification (Skin, Breast, Brain Tumor)')
 st.write("Classify skin cancer, breast cancer, or brain tumors using deep learning models.")
 
-# Upload image
 uploaded_file = st.file_uploader("Choose an image for cancer classification...", type=["jpg", "png"])
 
 if uploaded_file is not None:
     try:
-        # Open and display the uploaded image
         image = Image.open(uploaded_file)
         st.image(image, caption="Uploaded scan", use_column_width=True)
 
-        # Preprocess image (resize to 224x224 for all models)
         img = image.resize((224, 224))
         img_array = np.array(img) / 255.0  # Normalize pixel values
         img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
