@@ -50,7 +50,8 @@ Output Layer: A Dense layer with a sigmoid activation function for binary classi
 To run this project, please ensure you have the following prerequisites installed:
 
 <li>Python</li> 
-<li>TensorFlow/Keras</li>
+<li>TensorFlow</li>
+<li>Keras</li>
 <li>NumPy</li>
 <li>Matplotlib</li>
 <p>
@@ -62,6 +63,7 @@ To run this project, please ensure you have the following prerequisites installe
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
+import tensorflow as tf
 from keras.layers import Flatten,Dense
 from keras.models import Model,load_model
 from keras.applications.mobilenet import MobileNet,preprocess_input
